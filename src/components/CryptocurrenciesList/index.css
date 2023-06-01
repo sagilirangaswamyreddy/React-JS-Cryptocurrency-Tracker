@@ -1,0 +1,19 @@
+.crypto-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #00e7ff;
+}
+.crypto-img {
+  width: fit-content;
+}
+@media (max-width: 767px) {
+  .crypto-img {
+    width: 90%;
+  }
+  .heading {
+    font-size: 24px;
+  }
+}
